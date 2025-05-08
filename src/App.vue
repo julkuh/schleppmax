@@ -25,7 +25,7 @@
 
 <script lang="ts" setup>
   import { onMounted } from 'vue';
-  import { positions, calculateVerticalSpeed } from '@/composables/usePositions';
+  import { calculateVerticalSpeed, positions } from '@/composables/usePositions';
 
   onMounted(() => {
     if (navigator.geolocation) {
